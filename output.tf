@@ -1,5 +1,5 @@
-output "myecr-repository-URL" {
-  value = aws_ecr_repository.ecr-app.repository_url
+output "myapp-repository-URL" {
+  value = aws_ecr_repository.myapp.repository_url
 }
 
 
